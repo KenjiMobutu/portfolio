@@ -64,11 +64,17 @@ sr.reveal('.about__text', {delay: 500})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
+sr.reveal('p', {})
+sr.reveal('.serv-content', {delay: 50, interval: 100})
+sr.reveal('.card', {origin: 'right', distance: '50px'})
+
+/*SCROLL SERVICES*/
 sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 400})
 sr.reveal('.bars', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.line', {origin:'left', distance: '50px', delay: 50, interval: 100})
+
 
 /*SCROLL PORTFOLIO*/
 sr.reveal('.portfolio__img', {interval: 200})
