@@ -380,9 +380,13 @@ img{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 40px 25px;
+    margin: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+    left: 15px;
 }
 .services .serv-content .card:hover{
     background: #5361FF;
@@ -405,11 +409,12 @@ img{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
-.services .serv-content .card {
-    display: inline-block;
     position: relative;
-    left: 30px;
+    top: -10px;
+}
+.services .serv-content .card p{
+    position: relative;
+    top: -20px;
 }
 
 
