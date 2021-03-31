@@ -61,11 +61,11 @@ sr.reveal('.about__img', {delay: 500})
 sr.reveal('.about__subtitle', {delay: 300})
 sr.reveal('.about__profession', {delay: 400})
 sr.reveal('.about__text', {delay: 500})
-sr.reveal('.about-txt-rotate', {delay: 500})
+sr.reveal('.about_iam', {delay: 500})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
-sr.reveal('p', {})
+sr.reveal('.text', {})
 sr.reveal('.serv-content', {delay: 50, interval: 100})
 sr.reveal('.card', {origin: 'right', distance: '50px'})
 
@@ -129,21 +129,7 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
-window.onload = function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
-};
+
 
 
 window.onload = function() {
