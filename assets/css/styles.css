@@ -144,10 +144,10 @@ img{
     margin-bottom: var(--mb-4);
 }
 .nav__logo a:hover{
-    color: hotpink;
+    color: #F404A9;
 }
 .nav__item a:hover{
-    color: hotpink;
+    color: #F404A9;
 }
 .nav__link{
     position: relative;
@@ -208,7 +208,7 @@ img{
     padding-top: 40px;
 }
 .txt-rotate{
-  color: hotpink;
+  color: #F404A9;
 }
 .home__scroll{
     align-self: flex-end;
@@ -254,6 +254,9 @@ img{
 }
 .about_iam{
     color: black;
+}
+.about-txt-rotate{
+    color: hotpink;
 }
 .about__text{
     margin-bottom: var(--mb-4);
