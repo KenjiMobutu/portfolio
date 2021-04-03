@@ -299,7 +299,7 @@ img{
 }
 
 .skills .skills-content .column{
-    width: calc(150% - 30px);
+    width: calc(100% - 30px);
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -531,7 +531,7 @@ img{
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
     body{
         margin: 0;
     }
@@ -596,6 +596,9 @@ img{
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+    }
+    .skills .skills-content .column{
+    width: calc(100% - 30px);
     }
 
     .portfolio__container{
